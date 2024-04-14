@@ -5,7 +5,7 @@ app.use(express.json());
 
 app.get('/', (req, res, next) =>{
     res.status(200).json({
-        msg: "Everything is good"
+        msg: "Everything is good We are here to help you"
     })
 })
 
